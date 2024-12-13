@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Teachers Training</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            transition: background-color 0.5s ease;
+        }
+        body:hover {
+            background-color: #e0f7fa;
+        }
+        header {
+            background: linear-gradient(90deg, #3f51b5, #5c6bc0);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.3rem;
+        }
+        nav {
+            background: #283593;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+            transform: scale(1.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        .section h2 {
+            color: #3f51b5;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #3f51b5;
+            padding-bottom: 0.5rem;
+        }
+        .section ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .image-container img {
+            max-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: #3f51b5;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        footer .footer-section {
+            margin-bottom: 1.5rem;
+        }
+        footer .footer-section h4 {
+            font-size: 1.2rem;
+            color: #ffeb3b;
+        }
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        @keyframes pulseBackground {
+            0% { background-color: #f4f4f9; }
+            50% { background-color: #e0f7fa; }
+            100% { background-color: #f4f4f9; }
+        }
+
+        .animate-background {
+            animation: pulseBackground 5s infinite;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const body = document.body;
+            body.classList.add('animate-background');
+        });
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Empowering Village Teachers</h1>
+        <p>Technology Training for a Brighter Future</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>At Village Teachers Training, we are dedicated to providing advanced technology training to teachers in rural areas. Our mission is to empower educators with the skills they need to transform the learning experience for students in their communities.</p>
+        </section>
+        <section id="programs" class="section">
+            <h2>Our Programs</h2>
+            <ul>
+                <li><strong>Basic Computer Skills:</strong> Learn essential computer operations and tools.</li>
+                <li><strong>Online Teaching Tools:</strong> Master modern platforms like Zoom and Google Classroom.</li>
+                <li><strong>Interactive Learning Techniques:</strong> Engage students with dynamic content and methods.</li>
+                <li><strong>Advanced Internet Usage:</strong> Explore online resources and integrate them into your curriculum.</li>
+            </ul>
+        </section>
+        <section id="resources" class="section">
+            <h2>Teaching Resources</h2>
+            <p>Discover a wide range of resources to enhance your teaching skills:</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/2HJl4gz8tsc" title="AI Animation Basics"></iframe>
+                <iframe src="https://www.youtube.com/embed/k6KCa-NNIt4" title="Advanced AI Animation Techniques"></iframe>
+                <iframe src="https://www.youtube.com/embed/3HJfNvDKbVA" title="Effective Online Teaching Strategies"></iframe>
+                <iframe src="https://www.youtube.com/embed/1JKYBeF2OMQ" title="Engaging Students with Technology"></iframe>
+            </div>
+            <p>Recommended Articles:</p>
+            <ul>
+                <li><a href="https://www.example.com/article1" target="_blank">Introduction to AI Animation</a></li>
+                <li><a href="https://www.example.com/article2" target="_blank">Top Tools for AI-Powered Animations</a></li>
+                <li><a href="https://www.example.com/article3" target="_blank">Best Practices in AI Animation Design</a></li>
+                <li><a href="https://www.example.com/article4" target="_blank">Interactive Teaching Methods for Rural Areas</a></li>
+                <li><a href="https://www.example.com/article5" target="_blank">Using Technology to Improve Classroom Engagement</a></li>
+            </ul>
+            <p>Recommended Books:</p>
+            <ul>
+                <li><strong>"Teach Like a Champion"</strong> by Doug Lemov</li>
+                <li><strong>"The Art of Teaching"</strong> by Gilbert Highet</li>
+                <li><strong>"How Learning Works"</strong> by Susan A. Ambrose</li>
+                <li><strong>"The Elements of Teaching"</strong> by James M. Banner</li>
+                <li><strong>"Technology Integration for Meaningful Classroom Use"</strong> by Katherine Cennamo</li>
+            </ul>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/200" alt="Teach Like a Champion">
+                <img src="https://via.placeholder.com/200" alt="The Art of Teaching">
+                <img src="https://via.placeholder.com/200" alt="How Learning Works">
+                <img src="https://via.placeholder.com/200" alt="The Elements of Teaching">
+                <img src="https://via.placeholder.com/200" alt="Technology Integration">
+            </div>
+            <p>Essential Tech Tools for Teachers:</p>
+            <ul>
+                <li><strong>Google Classroom:</strong> Streamline your teaching workflow and engage students.</li>
+                <li><strong>Kahoot:</strong> Create interactive quizzes and games for students.</li>
+                <li><strong>Zoom:</strong> Facilitate seamless online classes and meetings.</li>
+                <li><strong>Canva:</strong> Design visually appealing teaching materials.</li>
+                <li><strong>Edmodo:</strong> Build a collaborative learning environment for your class.</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to join our programs, reach out to us at <a href="mailto:info@villagetraining.org">info@villagetraining.org</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="#about">About</a> | <a href="#programs">Programs</a> | <a href="#resources">Resources</a> | <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-section">
+            <p>&copy; 2024 Village Teachers Training. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
